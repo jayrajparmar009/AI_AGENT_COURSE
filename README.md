@@ -11,12 +11,18 @@ Rather than forking the original repo, I chose to start from scratch to:
 
 ## 📁 Folder Structure
 
-my_own_files/
-├── lab1_system_user_prompt.py
-├── lab2_pdf_agent.py
-├── lab3_memory_loop_agent.py
-├── ...
-└── README.md <- Per-lab reflections and learning notes
+AI_AGENT_COURSE/                  ← Root of your GitHub repo
+├── my_own_files/                 ← Your personal lab scripts
+│   ├── lab1_system_user_prompt.py
+│   ├── lab2_pdf_agent.py
+│   ├── lab3_memory_loop_agent.py
+│   ├── shared_config.py          ← (optional) API setup, utils, etc.
+│   └── README.md                 ← (Optional) Per-lab notes
+│
+├── .gitignore                    ← Global ignores (e.g., .env)
+├── README.md                     ← Top-level polished README
+└── .env                          ← (NOT committed, local only)
+
 
 
 
