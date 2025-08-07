@@ -15,9 +15,9 @@ openai = OpenAI()
 from pathlib import Path
 
 base_dir = Path.cwd()
-pdf_path = base_dir / 'my_own_files' / '1_foundation' / 'me' / 'linkedin.pdf'
-# reader = PdfReader('me/linkedin.pdf')
-reader = PdfReader(str(pdf_path))
+# pdf_path = base_dir / '1_foundation' / 'me' / 'linkedin.pdf'
+reader = PdfReader('me/linkedin.pdf')
+# reader = PdfReader(str(pdf_path))
 linkedin = ""
 
 for page in reader.pages:
@@ -28,7 +28,7 @@ for page in reader.pages:
 
 # Reading the summary text from own file
 
-summary_path = base_dir / 'my_own_files' / '1_foundation' / 'me' / 'summary.txt'
+summary_path = 'me/summary.txt'
 with open(summary_path,"r", encoding="utf-8") as f:
     summary = f.read()
 
