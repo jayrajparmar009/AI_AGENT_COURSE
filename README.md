@@ -12,17 +12,19 @@ Rather than forking the original repo, I chose to start from scratch to:
 ## 📁 Folder Structure
 
 ```
-AI_AGENT_COURSE/                ← Root of your GitHub repo
-├── my_own_files/               ← Your personal lab scripts
-│   ├── lab1_system_user_prompt.py
-│   ├── lab2_pdf_agent.py
-│   ├── lab3_memory_loop_agent.py
-│   ├── shared_config.py
-│   └── README.md               ← Optional per-lab notes
-│
-├── .gitignore                  ← Global ignores (e.g., .env)
-├── README.md                   ← Top-level polished README
-└── .env                        ← (NOT committed, local only)
+AI_AGENT_COURSE/
+├── 1_foundations/          ← Intro labs & personal profile files
+├── 2_openai/               ← OpenAI API labs and experiments
+├── 3_crew/                 ← Crew AI agent examples
+├── 4_langgraph/            ← LangGraph workflows
+├── 5_autogen/              ← AutoGen framework projects
+├── 6_mcp/                  ← MCP agent projects
+├── assets/                 ← Images, diagrams, and other media
+├── guides/                 ← Written guides & documentation
+├── setup/                  ← Setup scripts and configs
+├── README.md               ← Project overview
+├── requirements.txt        ← Python dependencies
+└── uv.lock                  ← Lock file for environment reproducibility
 ```
 
 
