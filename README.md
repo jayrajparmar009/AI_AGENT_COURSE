@@ -60,7 +60,7 @@ Where possible, I include variations, edge-case tests, and agent behavior notes.
 ## 🧠 Acknowledgements
 
 - **Course:** [The Complete Agentic AI Engineering Course](https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/)
-- **Instructor:** [Ed Donner](https://www.linkedin.com/in/edonner/)
+- **Instructor:** [Ed Donner](https://www.linkedin.com/in/eddonner/)
 
 While this project builds on the course structure, all code, commentary, and experiments in this repo are my own.
 
